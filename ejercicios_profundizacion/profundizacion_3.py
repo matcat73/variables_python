@@ -63,3 +63,16 @@ Alumno:
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+import string
+
+nombre_completo = str(input('Ingresar nombre completo: '))
+
+nombre_lower = nombre_completo.lower()
+nombre_upper = nombre_completo.upper()
+nombre_capitalize = nombre_completo.capitalize()
+
+print('Nombre completo: ', nombre_completo)
+print('Nombre lower: ', nombre_lower)
+print('Nombre upper: ', nombre_upper)
+print('Nombre capitalizado: ', nombre_capitalize)

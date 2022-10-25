@@ -24,6 +24,7 @@ C) Multiplicación --> primero número por el segundo
 D) División --> primero número dividido el segundo
 E) Exponente/Potencia --> primero número exponente el segundo
 
+
 - Para todos los casos se debe imprimir en pantalla
   el resultado de la operación realizada
 
@@ -44,5 +45,31 @@ Alumno:
   en esas variables
 '''
 
+from __future__ import division
+
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+numero_1 = float(input('Ingresar float 1:'))
+
+numero_2 = float(input('Ingresar float 2:'))
+
+
+suma = numero_1 + numero_2
+
+resta = numero_1 - numero_2
+
+multiplicacion = numero_1 * numero_2
+
+division = numero_1 / numero_2
+
+potencia = numero_1 ** numero_2
+
+
+print('Número 1 es', numero_1)
+print('Número 2 es', numero_2)
+print('La suma es igual a', suma)
+print('La resta número 1 - número 2 es igual a', resta)
+print('La multiplicación es igual a', multiplicacion)
+print('La división número 1/número 2 es igual a', division)
+print('La potencia número 1 al número 2 es igual a', multiplicacion)
